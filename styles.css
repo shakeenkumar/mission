@@ -1,8 +1,11 @@
+/* Light Theme (Default) */
 body {
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
     line-height: 1.5;
     text-align: center;
+    background-color: #fff; /* Default light background */
+    color: #000; /* Default text color */
 }
 
 header {
@@ -29,4 +32,18 @@ main {
 footer img {
     width: 150px;
     margin-top: 20px;
+}
+
+/* Dark Theme */
+body.dark {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text color */
+}
+
+body.dark h2 {
+    color: #A7C6ED; /* Lighter blue for better contrast */
+}
+
+body.dark footer img {
+    content: url('byui-logo-white.png'); /* White logo for dark theme */
 }
